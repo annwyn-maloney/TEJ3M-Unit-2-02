@@ -18,7 +18,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
   delay(blinkTime); // wait for length of variable blinkTime
   digitalWrite(LED_BUILTIN, LOW); // turn the LED off by making the votage LOW 
-  delay(1000) // wait for a second
+  delay(1000); // wait for a second
 
   blinkTime = blinkTime + 1000; // add 1 second (or 1000) to variable blinkTime
 } 
